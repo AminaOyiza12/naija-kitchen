@@ -1,0 +1,14 @@
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  color: aqua;
+  line-height: 1.2
+}
+
+.btn {
+  padding: 10px 200px;
+  margin: 10px 50px;
+}
+
+!Important {
+  at-rule or selector expected color: red;
+  font-size: 30px
