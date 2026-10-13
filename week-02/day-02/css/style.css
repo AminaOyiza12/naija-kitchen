@@ -7,6 +7,11 @@ Finding ou why is your job toda.
 
 /* ====== BASE ====== */
 /* you will write the body rules here */
+* {
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+}
 
 /* HERO */
 #hero h2 {
@@ -31,6 +36,7 @@ Finding ou why is your job toda.
   padding: 0.25rem 0.75rem;
   border-radius: 99px;
   font-size: 0.875rem;
+  height: 60px;
 }
 
 .tag-spicy {
@@ -61,7 +67,7 @@ button {
 .note {
   background: #fef3c7;
   padding: 1rem;
-  border-left: 1px double #f59e0b;
+  border-left: 4px solid #f59e0b;
   border-radius: 6px;
   margin-bottom: 1rem;
 }
@@ -75,7 +81,7 @@ button {
 }
 
 .Ingredients {
-  background: #fee2e2;
+  background: #e6f2ef;
   padding: 1.5rem;
   margin: 10px 20px 30px 40px
 }
@@ -86,6 +92,7 @@ button {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
 
 .btn {
   display: inline-block;
