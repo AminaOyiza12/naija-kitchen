@@ -57,7 +57,7 @@ header {
   color: white;
   padding: 1.5rem 2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -72,6 +72,7 @@ nav ul {
   margin-bottom: 0;
   display:flex;
   gap: 1.5rem;
+  flex-wrap: wrap;
 }
 
 nav a {
@@ -191,13 +192,12 @@ footer {
   padding: 2rem;
   margin-top: 3rem;
   background: #1f2937;
-  color: #e5e7e5;
-  text-align: center;
+  color: #e5e7eb
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .footer p {
@@ -212,14 +212,13 @@ footer {
   padding-left: 0;
 }
 
-.footer-links * {
+.footer-links a {
   color: #e5e7e5;
 }
 
 .footer-links a:hover,
 .footer-links a:focus {
   color: white;
-  text-decoration: underline;
 }
 
  /* ====== REVIEW FORM ======= */
