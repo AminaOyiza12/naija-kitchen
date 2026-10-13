@@ -1,0 +1,16 @@
+header {
+  background: #2d6a4f;
+  color: white;
+  padding: 1.5rem 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;

@@ -1,3 +1,13 @@
+/* ================================
+NAIJA KITCHEN - starter stylessheet
+
+Some rules in here will not work
+Finding ou why is your job toda.
+================================*/
+
+/* ====== BASE ====== */
+/* you will write the body rules here */
+
 /* HERO */
 #hero h2 {
   color: #6b7280
@@ -18,7 +28,7 @@
 
 /* TAGS */
 .tag {
-  padding: 0.25rem 0.5rem;
+  padding: 0.25rem 0.75rem;
   border-radius: 99px;
   font-size: 0.875rem;
 }
@@ -28,7 +38,7 @@
   color: #991b1b;
 }
 
-.tag--quick {
+.tag--onepot {
   background: #dbeafe;
   color: #1e40af;
 }
@@ -47,7 +57,6 @@ button {
   background: #9ca3af;
 }
 
-
 /* NOTES */
 .note {
   background: #fef3c7;
@@ -62,7 +71,7 @@ button {
 }
 
 .note strong {
-  color: #036d58;
+  color: #92400e !important;
 }
 
 .Ingredients {
@@ -81,3 +90,55 @@ button {
 .btn {
   display: inline-block;
 }
+
+/* REVIEW FORM */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+input,select, textarea {
+  width: 100;
+  padding: 0.75rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 6px;
+  font-family:inherit ;
+  font-size: 1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #036d58;
+}
+
+.btn {
+  display: inline-block;
+  background: #036d58;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background:#025243;
+  }
+
+  body {
+    font-family: 'poppins', system-ui, sans-serif;
+  }
+
+  h1, h2, h3 {
+    font-family: 'playfair Display', Georgia, seif;
+  }
