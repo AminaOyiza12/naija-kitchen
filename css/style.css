@@ -55,7 +55,7 @@ section {
 header {
   background: #036d03;
   color: white;
-  padding: 1.5rem;
+  padding: 1.5rem 2rem;
 }
 
 header h1 {
@@ -66,12 +66,12 @@ nav ul {
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
-  display: flex;
-  gap: 1.7rem;
-  margin: 10px 0 0 0;
-  flex-direction:column;
+  display:flex;
+  gap: 1.5rem;
+  flex-direction: column;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 10px 0 0 0;
 }
 
 nav a {
@@ -279,19 +279,6 @@ footer {
 .btn:hover {
   background: #e6f2ef;
 }
-  .outer {
-    height: 300px;
-    background:#e6f2ef ;
-  }
-
-  .inner {
-    width:200px;
-    background: #036d58;
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    margin: 0 auto;
-  }
 
   input, select, textarea {
     font-size: 1rem;
