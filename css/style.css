@@ -176,7 +176,7 @@
  }
 
  /* NOTES */
- .note {
+ .notes {
    background: #fef3c7;
    padding: 1rem;
    border-left: 4px solid #f59e0b;
@@ -184,11 +184,11 @@
    margin-bottom: 1rem;
  }
 
- .note p {
+ .notes p {
    margin-bottom: 0;
  }
 
- .note strong {
+ .notes strong {
    color: #92400e;
  }
 
@@ -255,12 +255,14 @@
  }
 
  .form-group label {
-  display: block;
+   display: block;
    font-weight: 600;
    margin-bottom: 0.5rem;
  }
 
-  input, select, textarea {
+ input,
+ select,
+ textarea {
    width: 100%;
    padding: 0.75rem 1rem;
    border: 2px solid #e5e7eb;
