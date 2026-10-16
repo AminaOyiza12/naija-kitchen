@@ -410,7 +410,7 @@
      width: 100%;
    }
 
-   .nav-toggle:checked~nav {
+   .nav-toggle:checked~navS {
      display: block;
    }
 
