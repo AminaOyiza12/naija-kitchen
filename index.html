@@ -49,7 +49,7 @@
           The smoky, tomato-rich rice that starts arguments are at every family gathering. This is the pary version
           cooked long enough to catch at the bottom
         </p>
-        <button class="btn">Print Receipe</button>
+        <button class="btn">Print Recipe</button>
       </section>
 
       <section id="ingredients">
@@ -97,42 +97,52 @@
       <div class="recipe-grid">
         <div class="gallery">
           <article class="gallery_item">
-            <img class="gallery__image" src="images/jollof.jpg" alt="A pot of jollof rice">
+            <img class="gallery__image" src="images/jollof.jpg" alt="A pot of jollof rice" width="400" height="260"
+              loading="lazy">
             <div class="gallery__body">
-              <h3 class="gallery__title">Party Jollof Rice</h3>
-              <p class="gallery__meta">Serves 6 &middot; 45 mins</p>
-            </div>
+              <div class="gallery__body">
+                <h3 class="gallery__title">Party Jollof Rice</h3>
+                <p class="gallery__meta">Serves 6 &middot; 45 mins</p>
+              </div>
           </article>
           <article class="gallery__item">
-            <img class="gallery__image" src="images/egusi-soup.jpg" alt="Egusi Soup">
+            <img class="gallery__image" src="images/egusi-soup.jpg" alt="Egusi Soup" width="400" height="260"
+              loading="lazy">
             <div class="gallery__body">
-              <h3 class="gallery__title">Egusi Soup</h3>
-              <p class="gallery__meta">Serves 4 &middot; 1hour</p>
-            </div>
+              <div class="gallery__body">
+                <h3 class="gallery__title">Egusi Soup</h3>
+                <p class="gallery__meta">Serves 4 &middot; 1hour</p>
+              </div>
           </article>
           <article class="gallery__item">
-            <img class="gallery__image" src="images/moi-moi.jpg" alt="Moi Moi">
+            <img class="gallery__image" src="images/moi-moi.jpg" alt="Moi Moi" width="400" height="260" loading="lazy">
             <div class="gallery__body">
-              <h3 class="gallery__title">Moi Moi</h3>
-              <p class="gallery__meta">Serves 6 &middot; 1hour</p>
-            </div>
+              <div class="gallery__body">
+                <h3 class="gallery__title">Moi Moi</h3>
+                <p class="gallery__meta">Serves 6 &middot; 1hour</p>
+              </div>
           </article>
           <article class="gallery__item">
-            <img class="gallery__image" src="images/suya-skewers.jpg" alt="Suya Skewers">
+            <img class="gallery__image" src="images/suya-skewers.jpg" alt="Suya Skewers" width="400" height="260"
+              loading="lazy">
             <div class="gallery__body">
-              <h3 class="gallery__title">Suya Skewers</h3>
-              <p class="gallery__meta">Serves 4 &middot; 30min</p>
-            </div>
+              <div class="gallery__body">
+                <h3 class="gallery__title">Suya Skewers</h3>
+                <p class="gallery__meta">Serves 4 &middot; 30min</p>
+              </div>
           </article>
           <article class="gallery__item">
-            <img class="gallery__image" src="images/pepper-soup.jpg" alt="Pepper Soup">
+            <img class="gallery__image" src="images/pepper-soup.jpg" alt="Pepper Soup" width="400" height="260"
+              loading="lazy">
             <div class="gallery__body">
-              <h3 class="gallery__title">Pepper Soup</h3>
-              <p class="gallery__meta">Serves 4 &middot; 40min</p>
-            </div>
+              <div class="gallery__body">
+                <h3 class="gallery__title">Pepper Soup</h3>
+                <p class="gallery__meta">Serves 4 &middot; 40min</p>
+              </div>
           </article>
           <article class="gallery__item">
-            <img class="gallery__image" src="images/puff-puff.jpg" alt="Puff Puff">
+            <img class="gallery__image" src="images/puff-puff.jpg" alt="Puff Puff" width="400" height="260"
+              loading="lazy">
             <div class="gallery__body">
               <h3 class="gallery__title">Puff Puff</h3>
               <p class="gallery__meta">Makes 20 - 35min</p>
@@ -141,13 +151,16 @@
         </div>
     </section>
     <section id="review" class="container">
-      <h3>Leave a Review</h3>
+      <h2>Leave a Review</h2>
       <form action=""></form>
       <form class="review-form">
+        <div class="form-group">
+          <label for="name">Your name</label>
+          <input type="text" id="name" name="name" placeholder="Full name" required>
+          </div>
         <label for="email">Email Address</label>
         <input type="email" id="email" name="email" placeholder="e.g amina@example.com" required>
         </div>
-
         <div class="form-group">
           <label for="rating">Rating</label>
           <select id="rating" name="rating" required>

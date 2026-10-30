@@ -127,19 +127,20 @@ textarea:focus {
 
 .btn {
   display: inline-block;
-  background: #036d58;
+  background: #5b21b6;
   color: white;
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 6px;
   font-size: 1rem;
   font-weight: 600;
+  font-family: inherit;
   cursor: pointer;
 }
 
 .btn:hover,
 .btn:focus {
-  background:#025243;
+  background:#5b21b6;
   }
 
   body {
