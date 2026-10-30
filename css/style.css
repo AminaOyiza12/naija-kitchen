@@ -2,7 +2,7 @@
 :root {
   --brand: #036d58;
   --brand-dark: #025243;
-  --brand-rgb: 3, 109, 88;    
+  --brand-rgb: 3, 109, 88;
 }
 
 /* ===== RESET ===== */
@@ -334,7 +334,7 @@ textarea:focus {
 }
 
 .gallery__image {
-  width: 120%;
+  width: 100%;
   height: 180px;
   object-fit: cover;
   display: block;
