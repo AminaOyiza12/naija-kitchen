@@ -400,6 +400,25 @@ textarea:focus {
   text-transform: uppercase;
 }
 
+/***** HAMBURGER ******/
+.hamburger {
+  position: relative;
+  background: none;
+  font-family: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+.notification-dot {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 20px;
+
+}
 /***** MOBILE NAV *****/
 .nav-toggle {
   position: absolute;
