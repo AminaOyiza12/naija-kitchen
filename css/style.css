@@ -382,6 +382,24 @@ textarea:focus {
   background: #1e40af;
 }
 
+/***** CARD RIBBON *******/
+.gallery__ribbon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  background: rgba(var(--brand-rgb), 0.92);
+  color: white;
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
 /***** MOBILE NAV *****/
 .nav-toggle {
   position: absolute;
